@@ -31,11 +31,10 @@ jobs:
           restore-keys: |
             maven-${{ runner.os }}-
 
-      - name: Set up Chrome
-        uses: browser-actions/setup-chrome@latest
-
-      - name: Set up ChromeDriver
-        uses: browser-actions/setup-chromedriver@latest
+      - name: Set up Chrome and ChromeDriver
+        uses: nanasess/setup-chromedriver@master
+        with:
+          chromedriver-version: '126.0'
 
       - name: Verify Chrome installation
         run: google-chrome --version
