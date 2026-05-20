@@ -31,13 +31,14 @@ jobs:
           restore-keys: |
             maven-${{ runner.os }}-
 
-      - name: Install Chromium
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y chromium-browser
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@latest
 
-      - name: Verify Chromium installation
-        run: chromium-browser --version
+      - name: Set up ChromeDriver
+        uses: browser-actions/setup-chromedriver@latest
+
+      - name: Verify Chrome installation
+        run: google-chrome --version
 
       - name: Build project
         working-directory: GitHubActionPipeline
