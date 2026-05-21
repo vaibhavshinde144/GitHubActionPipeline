@@ -32,12 +32,12 @@ jobs:
             maven-${{ runner.os }}-
 
       - name: Set up Chrome and ChromeDriver
-  uses: browser-actions/setup-chrome@latest
+        uses: browser-actions/setup-chrome@latest
 
       - name: Set up ChromeDriver
-      uses: nanasess/setup-chromedriver@master
-      with:
-    chromedriver-version: auto
+        uses: nanasess/setup-chromedriver@master
+        with:
+          chromedriver-version: auto
 
       - name: Verify Chrome installation
         run: google-chrome --version
