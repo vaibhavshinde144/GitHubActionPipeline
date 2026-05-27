@@ -1,0 +1,16 @@
+<suite name="Automation Exercise Regression Suite" parallel="false" thread-count="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="org.aiautomationproject.qa.listeners.TestListener"/>
+    </listeners>
+    <test name="Excel Regression Test Cases">
+        <classes>
+            <class name="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.StockRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.PurchaseProductTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="28" passed="2" failed="26" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-26T00:02:43 IST" name="Automation Exercise Parallel Regression Suite" finished-at="2026-05-26T00:03:20 IST" duration-ms="37144">
+    <groups>
+      <group name="negative">
+        <method signature="PaymentRegressionTest.verifyPaymentWithInvalidCardNumber()[pri:2, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifyPaymentWithInvalidCardNumber" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+        <method signature="PaymentRegressionTest.verifyPaymentWithBlankMandatoryPaymentFields()[pri:3, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifyPaymentWithBlankMandatoryPaymentFields" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+      </group> <!-- negative -->
+      <group name="high">
+        <method signature="AuthenticationRegressionTest.verifyLoginWithInvalidPassword()[pri:2, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithInvalidPassword" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="CartRegressionTest.verifyCartPersistenceAfterPageRefresh()[pri:2, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyCartPersistenceAfterPageRefresh" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyOrderSummaryDuringCheckout()[pri:3, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyOrderSummaryDuringCheckout" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="PaymentRegressionTest.verifyPaymentWithBlankMandatoryPaymentFields()[pri:3, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifyPaymentWithBlankMandatoryPaymentFields" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyCheckoutWithEmptyCartIsNotAllowed()[pri:4, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyCheckoutWithEmptyCartIsNotAllowed" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+      </group> <!-- high -->
+      <group name="security">
+        <method signature="SecurityRegressionTest.verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted()[pri:1, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifySqlInjectionAttemptOnLoginFields()[pri:2, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifySqlInjectionAttemptOnLoginFields" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyXssPayloadInProductSearchField()[pri:3, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyXssPayloadInProductSearchField" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyXssPayloadInCheckoutCommentField()[pri:4, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyXssPayloadInCheckoutCommentField" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyProtectedPageCannotBeAccessedAfterLogout()[pri:5, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyProtectedPageCannotBeAccessedAfterLogout" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyCardDetailsAreNotExposedAfterPayment()[pri:6, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyCardDetailsAreNotExposedAfterPayment" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+      </group> <!-- security -->
+      <group name="critical">
+        <method signature="AuthenticationRegressionTest.verifyLogoutAfterOrderPlacement()[pri:1, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLogoutAfterOrderPlacement" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="CartRegressionTest.verifyAddingProductToCartFromListingPage()[pri:1, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyAddingProductToCartFromListingPage" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyCheckoutWithProductForLoggedInUser()[pri:1, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyCheckoutWithProductForLoggedInUser" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="PaymentRegressionTest.verifySuccessfulPaymentUsingValidCardDetails()[pri:1, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifySuccessfulPaymentUsingValidCardDetails" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+        <method signature="PurchaseProductTest.customerCanPurchaseProductSuccessfully()[pri:1, instance:org.aiautomationproject.qa.tests.PurchaseProductTest@1a482e36]" name="customerCanPurchaseProductSuccessfully" class="org.aiautomationproject.qa.tests.PurchaseProductTest"/>
+        <method signature="SecurityRegressionTest.verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted()[pri:1, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyDeliveryAddressDisplayedDuringCheckout()[pri:2, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyDeliveryAddressDisplayedDuringCheckout" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="PaymentRegressionTest.verifyPaymentWithInvalidCardNumber()[pri:2, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifyPaymentWithInvalidCardNumber" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifySqlInjectionAttemptOnLoginFields()[pri:2, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifySqlInjectionAttemptOnLoginFields" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyXssPayloadInProductSearchField()[pri:3, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyXssPayloadInProductSearchField" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyXssPayloadInCheckoutCommentField()[pri:4, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyXssPayloadInCheckoutCommentField" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyProtectedPageCannotBeAccessedAfterLogout()[pri:5, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyProtectedPageCannotBeAccessedAfterLogout" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyCardDetailsAreNotExposedAfterPayment()[pri:6, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyCardDetailsAreNotExposedAfterPayment" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+      </group> <!-- critical -->
+      <group name="low">
+        <method signature="StockRegressionTest.verifyAbnormalHighQuantityHandling()[pri:2, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" name="verifyAbnormalHighQuantityHandling" class="org.aiautomationproject.qa.tests.StockRegressionTest"/>
+        <method signature="CartRegressionTest.verifyDuplicateProductAdditionIncreasesQuantity()[pri:5, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyDuplicateProductAdditionIncreasesQuantity" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+      </group> <!-- low -->
+      <group name="e2e">
+        <method signature="PurchaseProductTest.customerCanPurchaseProductSuccessfully()[pri:1, instance:org.aiautomationproject.qa.tests.PurchaseProductTest@1a482e36]" name="customerCanPurchaseProductSuccessfully" class="org.aiautomationproject.qa.tests.PurchaseProductTest"/>
+      </group> <!-- e2e -->
+      <group name="payment">
+        <method signature="PaymentRegressionTest.verifySuccessfulPaymentUsingValidCardDetails()[pri:1, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifySuccessfulPaymentUsingValidCardDetails" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+        <method signature="PurchaseProductTest.customerCanPurchaseProductSuccessfully()[pri:1, instance:org.aiautomationproject.qa.tests.PurchaseProductTest@1a482e36]" name="customerCanPurchaseProductSuccessfully" class="org.aiautomationproject.qa.tests.PurchaseProductTest"/>
+        <method signature="PaymentRegressionTest.verifyPaymentWithInvalidCardNumber()[pri:2, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifyPaymentWithInvalidCardNumber" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+        <method signature="PaymentRegressionTest.verifyPaymentWithBlankMandatoryPaymentFields()[pri:3, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" name="verifyPaymentWithBlankMandatoryPaymentFields" class="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+        <method signature="SecurityRegressionTest.verifyCardDetailsAreNotExposedAfterPayment()[pri:6, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" name="verifyCardDetailsAreNotExposedAfterPayment" class="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+      </group> <!-- payment -->
+      <group name="medium">
+        <method signature="StockRegressionTest.verifyZeroOrNegativeQuantityIsNotAccepted()[pri:1, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" name="verifyZeroOrNegativeQuantityIsNotAccepted" class="org.aiautomationproject.qa.tests.StockRegressionTest"/>
+        <method signature="AuthenticationRegressionTest.verifyLoginWithUnregisteredEmail()[pri:3, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithUnregisteredEmail" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="CartRegressionTest.verifyAddingMultipleProductsToCart()[pri:3, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyAddingMultipleProductsToCart" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="AuthenticationRegressionTest.verifyLoginWithBlankEmailAndPassword()[pri:4, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithBlankEmailAndPassword" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="CartRegressionTest.verifyRemovingProductFromCart()[pri:4, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyRemovingProductFromCart" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="AuthenticationRegressionTest.verifyLoginWithBlankEmailAndValidPassword()[pri:5, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithBlankEmailAndValidPassword" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyCheckoutCommentAcceptsValidText()[pri:5, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyCheckoutCommentAcceptsValidText" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyRemovingProductBlocksOrderPlacement()[pri:6, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyRemovingProductBlocksOrderPlacement" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+      </group> <!-- medium -->
+      <group name="stock">
+        <method signature="StockRegressionTest.verifyZeroOrNegativeQuantityIsNotAccepted()[pri:1, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" name="verifyZeroOrNegativeQuantityIsNotAccepted" class="org.aiautomationproject.qa.tests.StockRegressionTest"/>
+        <method signature="StockRegressionTest.verifyAbnormalHighQuantityHandling()[pri:2, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" name="verifyAbnormalHighQuantityHandling" class="org.aiautomationproject.qa.tests.StockRegressionTest"/>
+      </group> <!-- stock -->
+      <group name="checkout">
+        <method signature="AuthenticationRegressionTest.verifyLogoutAfterOrderPlacement()[pri:1, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLogoutAfterOrderPlacement" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyCheckoutWithProductForLoggedInUser()[pri:1, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyCheckoutWithProductForLoggedInUser" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="PurchaseProductTest.customerCanPurchaseProductSuccessfully()[pri:1, instance:org.aiautomationproject.qa.tests.PurchaseProductTest@1a482e36]" name="customerCanPurchaseProductSuccessfully" class="org.aiautomationproject.qa.tests.PurchaseProductTest"/>
+        <method signature="CheckoutRegressionTest.verifyDeliveryAddressDisplayedDuringCheckout()[pri:2, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyDeliveryAddressDisplayedDuringCheckout" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyOrderSummaryDuringCheckout()[pri:3, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyOrderSummaryDuringCheckout" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyCheckoutWithEmptyCartIsNotAllowed()[pri:4, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyCheckoutWithEmptyCartIsNotAllowed" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyCheckoutCommentAcceptsValidText()[pri:5, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyCheckoutCommentAcceptsValidText" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+        <method signature="CheckoutRegressionTest.verifyRemovingProductBlocksOrderPlacement()[pri:6, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" name="verifyRemovingProductBlocksOrderPlacement" class="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+      </group> <!-- checkout -->
+      <group name="cart">
+        <method signature="CartRegressionTest.verifyAddingProductToCartFromListingPage()[pri:1, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyAddingProductToCartFromListingPage" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="CartRegressionTest.verifyCartPersistenceAfterPageRefresh()[pri:2, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyCartPersistenceAfterPageRefresh" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="CartRegressionTest.verifyAddingMultipleProductsToCart()[pri:3, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyAddingMultipleProductsToCart" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="CartRegressionTest.verifyRemovingProductFromCart()[pri:4, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyRemovingProductFromCart" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+        <method signature="CartRegressionTest.verifyDuplicateProductAdditionIncreasesQuantity()[pri:5, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" name="verifyDuplicateProductAdditionIncreasesQuantity" class="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+      </group> <!-- cart -->
+      <group name="authentication">
+        <method signature="AuthenticationRegressionTest.verifyLogoutAfterOrderPlacement()[pri:1, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLogoutAfterOrderPlacement" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="AuthenticationRegressionTest.verifyLoginWithInvalidPassword()[pri:2, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithInvalidPassword" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="AuthenticationRegressionTest.verifyLoginWithUnregisteredEmail()[pri:3, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithUnregisteredEmail" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="AuthenticationRegressionTest.verifyLoginWithBlankEmailAndPassword()[pri:4, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithBlankEmailAndPassword" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+        <method signature="AuthenticationRegressionTest.verifyLoginWithBlankEmailAndValidPassword()[pri:5, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" name="verifyLoginWithBlankEmailAndValidPassword" class="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+      </group> <!-- authentication -->
+    </groups>
+    <test started-at="2026-05-26T00:02:43 IST" name="Parallel Excel Regression Test Cases" finished-at="2026-05-26T00:03:20 IST" duration-ms="37144">
+      <class name="org.aiautomationproject.qa.tests.SecurityRegressionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:02:47 IST" name="setUp" finished-at="2026-05-26T00:02:48 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted()[pri:1, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:02:48 IST" name="verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted" description="TC_SEC_001 - Verify direct checkout URL access without login is restricted" finished-at="2026-05-26T00:02:55 IST" duration-ms="6280" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59a889fec18d4a88edb2307a8398b1a6, findElement {value=body, using=tag name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62261}, goog:processID: 15728, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62261/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59a889fec18d4a88edb2307a8398b1a6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 5.000
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59a889fec18d4a88edb2307a8398b1a6, findElement {value=body, using=tag name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62261}, goog:processID: 15728, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62261/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 59a889fec18d4a88edb2307a8398b1a6
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.aiautomationproject.qa.base.BaseTest.pageContains(BaseTest.java:79)
+at org.aiautomationproject.qa.tests.SecurityRegressionTest.verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted(SecurityRegressionTest.java:18)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:02:55 IST" name="tearDown" finished-at="2026-05-26T00:02:55 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:02:55 IST" name="setUp" finished-at="2026-05-26T00:02:56 IST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySqlInjectionAttemptOnLoginFields()[pri:2, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:02:56 IST" name="verifySqlInjectionAttemptOnLoginFields" description="TC_SEC_002 - Verify SQL injection attempt on login fields" finished-at="2026-05-26T00:03:01 IST" duration-ms="5027" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 3.993
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [982a57176d341deb8406051eec6be5e3, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56386}, goog:processID: 10504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56386/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 982a57176d341deb8406051eec6be5e3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.993
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [982a57176d341deb8406051eec6be5e3, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56386}, goog:processID: 10504, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56386/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 982a57176d341deb8406051eec6be5e3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at org.aiautomationproject.qa.pages.HeaderPage.openLogin(HeaderPage.java:35)
+at org.aiautomationproject.qa.tests.SecurityRegressionTest.verifySqlInjectionAttemptOnLoginFields(SecurityRegressionTest.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySqlInjectionAttemptOnLoginFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:02 IST" name="tearDown" finished-at="2026-05-26T00:03:02 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:02 IST" name="setUp" finished-at="2026-05-26T00:03:04 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyXssPayloadInProductSearchField()[pri:3, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:04 IST" name="verifyXssPayloadInProductSearchField" description="TC_SEC_003 - Verify XSS payload in product search field" finished-at="2026-05-26T00:03:09 IST" duration-ms="5026" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 3.945
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc227a6531875325027606af44a74336, get {url=https://automationexercise.com/products}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55121}, goog:processID: 18200, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc227a6531875325027606af44a74336]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 3.945
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc227a6531875325027606af44a74336, get {url=https://automationexercise.com/products}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55121}, goog:processID: 18200, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55121/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cc227a6531875325027606af44a74336
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at org.aiautomationproject.qa.pages.HeaderPage.openProducts(HeaderPage.java:40)
+at org.aiautomationproject.qa.tests.SecurityRegressionTest.verifyXssPayloadInProductSearchField(SecurityRegressionTest.java:32)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyXssPayloadInProductSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:09 IST" name="tearDown" finished-at="2026-05-26T00:03:09 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:09 IST" name="setUp" finished-at="2026-05-26T00:03:10 IST" duration-ms="982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyXssPayloadInCheckoutCommentField()[pri:4, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:10 IST" name="verifyXssPayloadInCheckoutCommentField" description="TC_SEC_004 - Verify XSS payload in checkout comment field" finished-at="2026-05-26T00:03:10 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.SecurityRegressionTest.verifyXssPayloadInCheckoutCommentField(SecurityRegressionTest.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyXssPayloadInCheckoutCommentField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:10 IST" name="tearDown" finished-at="2026-05-26T00:03:10 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:10 IST" name="setUp" finished-at="2026-05-26T00:03:11 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProtectedPageCannotBeAccessedAfterLogout()[pri:5, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:11 IST" name="verifyProtectedPageCannotBeAccessedAfterLogout" description="TC_SEC_005 - Verify protected page cannot be accessed after logout" finished-at="2026-05-26T00:03:11 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.createLoggedInUser(RegressionTestBase.java:18)
+at org.aiautomationproject.qa.tests.SecurityRegressionTest.verifyProtectedPageCannotBeAccessedAfterLogout(SecurityRegressionTest.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProtectedPageCannotBeAccessedAfterLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:11 IST" name="tearDown" finished-at="2026-05-26T00:03:12 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:12 IST" name="setUp" finished-at="2026-05-26T00:03:12 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCardDetailsAreNotExposedAfterPayment()[pri:6, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:12 IST" name="verifyCardDetailsAreNotExposedAfterPayment" description="TC_SEC_006 - Verify card details are masked or not exposed after payment" finished-at="2026-05-26T00:03:12 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openPaymentWithDefaultProduct(RegressionTestBase.java:50)
+at org.aiautomationproject.qa.tests.RegressionTestBase.placeOrderWithValidCard(RegressionTestBase.java:54)
+at org.aiautomationproject.qa.tests.SecurityRegressionTest.verifyCardDetailsAreNotExposedAfterPayment(SecurityRegressionTest.java:61)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCardDetailsAreNotExposedAfterPayment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.SecurityRegressionTest@67c27493]" started-at="2026-05-26T00:03:13 IST" name="tearDown" finished-at="2026-05-26T00:03:13 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.aiautomationproject.qa.tests.SecurityRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.PaymentRegressionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:00 IST" name="setUp" finished-at="2026-05-26T00:03:01 IST" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySuccessfulPaymentUsingValidCardDetails()[pri:1, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:01 IST" name="verifySuccessfulPaymentUsingValidCardDetails" description="TC_PAYMENT_001 - Verify successful payment using valid card details" finished-at="2026-05-26T00:03:01 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openPaymentWithDefaultProduct(RegressionTestBase.java:50)
+at org.aiautomationproject.qa.tests.RegressionTestBase.placeOrderWithValidCard(RegressionTestBase.java:54)
+at org.aiautomationproject.qa.tests.PaymentRegressionTest.verifySuccessfulPaymentUsingValidCardDetails(PaymentRegressionTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySuccessfulPaymentUsingValidCardDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:01 IST" name="tearDown" finished-at="2026-05-26T00:03:02 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:02 IST" name="setUp" finished-at="2026-05-26T00:03:03 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentWithInvalidCardNumber()[pri:2, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:03 IST" name="verifyPaymentWithInvalidCardNumber" description="TC_PAYMENT_002 - Verify payment with invalid card number" finished-at="2026-05-26T00:03:03 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openPaymentWithDefaultProduct(RegressionTestBase.java:50)
+at org.aiautomationproject.qa.tests.PaymentRegressionTest.verifyPaymentWithInvalidCardNumber(PaymentRegressionTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentWithInvalidCardNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:03 IST" name="tearDown" finished-at="2026-05-26T00:03:04 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:04 IST" name="setUp" finished-at="2026-05-26T00:03:05 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPaymentWithBlankMandatoryPaymentFields()[pri:3, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:05 IST" name="verifyPaymentWithBlankMandatoryPaymentFields" description="TC_PAYMENT_003 - Verify payment with blank mandatory payment fields" finished-at="2026-05-26T00:03:05 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openPaymentWithDefaultProduct(RegressionTestBase.java:50)
+at org.aiautomationproject.qa.tests.PaymentRegressionTest.verifyPaymentWithBlankMandatoryPaymentFields(PaymentRegressionTest.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentWithBlankMandatoryPaymentFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.PaymentRegressionTest@77fbd92c]" started-at="2026-05-26T00:03:05 IST" name="tearDown" finished-at="2026-05-26T00:03:05 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.aiautomationproject.qa.tests.PaymentRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.CheckoutRegressionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:43 IST" name="setUp" finished-at="2026-05-26T00:02:45 IST" duration-ms="1579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckoutWithProductForLoggedInUser()[pri:1, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:45 IST" name="verifyCheckoutWithProductForLoggedInUser" description="TC_CHECKOUT_001 - Verify checkout with products in cart for logged-in user" finished-at="2026-05-26T00:02:45 IST" duration-ms="295" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.CheckoutRegressionTest.verifyCheckoutWithProductForLoggedInUser(CheckoutRegressionTest.java:14)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithProductForLoggedInUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:45 IST" name="tearDown" finished-at="2026-05-26T00:02:45 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:45 IST" name="setUp" finished-at="2026-05-26T00:02:47 IST" duration-ms="1346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDeliveryAddressDisplayedDuringCheckout()[pri:2, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:47 IST" name="verifyDeliveryAddressDisplayedDuringCheckout" description="TC_CHECKOUT_002 - Verify delivery address is displayed during checkout" finished-at="2026-05-26T00:02:47 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.CheckoutRegressionTest.verifyDeliveryAddressDisplayedDuringCheckout(CheckoutRegressionTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeliveryAddressDisplayedDuringCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:47 IST" name="tearDown" finished-at="2026-05-26T00:02:47 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:47 IST" name="setUp" finished-at="2026-05-26T00:02:54 IST" duration-ms="6814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyOrderSummaryDuringCheckout()[pri:3, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:54 IST" name="verifyOrderSummaryDuringCheckout" description="TC_CHECKOUT_003 - Verify order summary calculation during checkout" finished-at="2026-05-26T00:02:54 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.CheckoutRegressionTest.verifyOrderSummaryDuringCheckout(CheckoutRegressionTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderSummaryDuringCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:54 IST" name="tearDown" finished-at="2026-05-26T00:02:55 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:55 IST" name="setUp" finished-at="2026-05-26T00:02:56 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckoutWithEmptyCartIsNotAllowed()[pri:4, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:56 IST" name="verifyCheckoutWithEmptyCartIsNotAllowed" description="TC_CHECKOUT_005 - Verify checkout with empty cart is not allowed" finished-at="2026-05-26T00:02:56 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.createLoggedInUser(RegressionTestBase.java:18)
+at org.aiautomationproject.qa.tests.CheckoutRegressionTest.verifyCheckoutWithEmptyCartIsNotAllowed(CheckoutRegressionTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutWithEmptyCartIsNotAllowed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:56 IST" name="tearDown" finished-at="2026-05-26T00:02:56 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:56 IST" name="setUp" finished-at="2026-05-26T00:02:57 IST" duration-ms="1035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckoutCommentAcceptsValidText()[pri:5, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:57 IST" name="verifyCheckoutCommentAcceptsValidText" description="TC_CHECKOUT_004 - Verify comment section during checkout accepts valid text" finished-at="2026-05-26T00:02:57 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.CheckoutRegressionTest.verifyCheckoutCommentAcceptsValidText(CheckoutRegressionTest.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutCommentAcceptsValidText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:58 IST" name="tearDown" finished-at="2026-05-26T00:02:58 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:58 IST" name="setUp" finished-at="2026-05-26T00:02:59 IST" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRemovingProductBlocksOrderPlacement()[pri:6, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:59 IST" name="verifyRemovingProductBlocksOrderPlacement" description="TC_CHECKOUT_006 - Verify removing product from cart and then trying to place order" finished-at="2026-05-26T00:02:59 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.CheckoutRegressionTest.verifyRemovingProductBlocksOrderPlacement(CheckoutRegressionTest.java:54)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemovingProductBlocksOrderPlacement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CheckoutRegressionTest@1b7cc17c]" started-at="2026-05-26T00:02:59 IST" name="tearDown" finished-at="2026-05-26T00:03:00 IST" duration-ms="670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.aiautomationproject.qa.tests.CheckoutRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.AuthenticationRegressionTest">
+        <test-method is-config="true" signature="createSuiteUserOnce()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:02:36 IST" name="createSuiteUserOnce" finished-at="2026-05-26T00:02:43 IST" duration-ms="7417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSuiteUserOnce -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:02:51 IST" name="setUp" finished-at="2026-05-26T00:02:52 IST" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogoutAfterOrderPlacement()[pri:1, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:02:52 IST" name="verifyLogoutAfterOrderPlacement" description="TC_LOGOUT_001 - Verify logout after order placement" finished-at="2026-05-26T00:02:52 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openCheckoutWithDefaultProduct(RegressionTestBase.java:46)
+at org.aiautomationproject.qa.tests.RegressionTestBase.openPaymentWithDefaultProduct(RegressionTestBase.java:50)
+at org.aiautomationproject.qa.tests.RegressionTestBase.placeOrderWithValidCard(RegressionTestBase.java:54)
+at org.aiautomationproject.qa.tests.AuthenticationRegressionTest.verifyLogoutAfterOrderPlacement(AuthenticationRegressionTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutAfterOrderPlacement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:02:53 IST" name="tearDown" finished-at="2026-05-26T00:02:53 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:02:53 IST" name="setUp" finished-at="2026-05-26T00:02:54 IST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithInvalidPassword()[pri:2, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:02:54 IST" name="verifyLoginWithInvalidPassword" description="TC_LOGIN_002 - Verify login with invalid password" finished-at="2026-05-26T00:03:00 IST" duration-ms="6379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:00 IST" name="tearDown" finished-at="2026-05-26T00:03:01 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:01 IST" name="setUp" finished-at="2026-05-26T00:03:02 IST" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithUnregisteredEmail()[pri:3, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:02 IST" name="verifyLoginWithUnregisteredEmail" description="TC_LOGIN_003 - Verify login with unregistered email" finished-at="2026-05-26T00:03:07 IST" duration-ms="5016" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 4.283
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0f18d9d6ebc8dfe90d6bb54771827e5, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62516}, goog:processID: 21580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62516/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0f18d9d6ebc8dfe90d6bb54771827e5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 4.283
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0f18d9d6ebc8dfe90d6bb54771827e5, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62516}, goog:processID: 21580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62516/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0f18d9d6ebc8dfe90d6bb54771827e5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at org.aiautomationproject.qa.pages.HeaderPage.openLogin(HeaderPage.java:35)
+at org.aiautomationproject.qa.tests.AuthenticationRegressionTest.verifyLoginWithUnregisteredEmail(AuthenticationRegressionTest.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithUnregisteredEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:08 IST" name="tearDown" finished-at="2026-05-26T00:03:08 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:08 IST" name="setUp" finished-at="2026-05-26T00:03:09 IST" duration-ms="866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithBlankEmailAndPassword()[pri:4, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:09 IST" name="verifyLoginWithBlankEmailAndPassword" description="TC_LOGIN_004 - Verify login with blank email and blank password" finished-at="2026-05-26T00:03:14 IST" duration-ms="4938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithBlankEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:14 IST" name="tearDown" finished-at="2026-05-26T00:03:14 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:14 IST" name="setUp" finished-at="2026-05-26T00:03:15 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginWithBlankEmailAndValidPassword()[pri:5, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:15 IST" name="verifyLoginWithBlankEmailAndValidPassword" description="TC_LOGIN_005 - Verify login with blank email and valid password" finished-at="2026-05-26T00:03:20 IST" duration-ms="5023" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: -0.010
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17dfa8eef58ebaae65bfbd7907d80f19, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61868}, goog:processID: 18184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61868/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17dfa8eef58ebaae65bfbd7907d80f19]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: -0.010
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17dfa8eef58ebaae65bfbd7907d80f19, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61868}, goog:processID: 18184, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61868/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 17dfa8eef58ebaae65bfbd7907d80f19
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+at org.aiautomationproject.qa.pages.HeaderPage.openLogin(HeaderPage.java:35)
+at org.aiautomationproject.qa.tests.AuthenticationRegressionTest.verifyLoginWithBlankEmailAndValidPassword(AuthenticationRegressionTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithBlankEmailAndValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.AuthenticationRegressionTest@4550bb58]" started-at="2026-05-26T00:03:20 IST" name="tearDown" finished-at="2026-05-26T00:03:20 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.aiautomationproject.qa.tests.AuthenticationRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.StockRegressionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" started-at="2026-05-26T00:03:05 IST" name="setUp" finished-at="2026-05-26T00:03:06 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyZeroOrNegativeQuantityIsNotAccepted()[pri:1, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" started-at="2026-05-26T00:03:06 IST" name="verifyZeroOrNegativeQuantityIsNotAccepted" description="TC_STOCK_002 - Verify zero or negative quantity is not accepted" finished-at="2026-05-26T00:03:06 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.createLoggedInUser(RegressionTestBase.java:18)
+at org.aiautomationproject.qa.tests.StockRegressionTest.verifyZeroOrNegativeQuantityIsNotAccepted(StockRegressionTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyZeroOrNegativeQuantityIsNotAccepted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" started-at="2026-05-26T00:03:07 IST" name="tearDown" finished-at="2026-05-26T00:03:07 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" started-at="2026-05-26T00:03:07 IST" name="setUp" finished-at="2026-05-26T00:03:08 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAbnormalHighQuantityHandling()[pri:2, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" started-at="2026-05-26T00:03:08 IST" name="verifyAbnormalHighQuantityHandling" description="TC_STOCK_001 - Verify abnormal high quantity handling" finished-at="2026-05-26T00:03:08 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.createLoggedInUser(RegressionTestBase.java:18)
+at org.aiautomationproject.qa.tests.StockRegressionTest.verifyAbnormalHighQuantityHandling(StockRegressionTest.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAbnormalHighQuantityHandling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.StockRegressionTest@59662a0b]" started-at="2026-05-26T00:03:08 IST" name="tearDown" finished-at="2026-05-26T00:03:08 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.aiautomationproject.qa.tests.StockRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.CartRegressionTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:43 IST" name="setUp" finished-at="2026-05-26T00:02:45 IST" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddingProductToCartFromListingPage()[pri:1, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:45 IST" name="verifyAddingProductToCartFromListingPage" description="TC_CART_001 - Verify adding product to cart from product listing page" finished-at="2026-05-26T00:02:45 IST" duration-ms="323" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.CartRegressionTest.verifyAddingProductToCartFromListingPage(CartRegressionTest.java:13)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingProductToCartFromListingPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:45 IST" name="tearDown" finished-at="2026-05-26T00:02:45 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:45 IST" name="setUp" finished-at="2026-05-26T00:02:47 IST" duration-ms="1450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartPersistenceAfterPageRefresh()[pri:2, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:47 IST" name="verifyCartPersistenceAfterPageRefresh" description="TC_CART_005 - Verify cart persistence after page refresh" finished-at="2026-05-26T00:02:47 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.CartRegressionTest.verifyCartPersistenceAfterPageRefresh(CartRegressionTest.java:62)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPersistenceAfterPageRefresh -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:47 IST" name="tearDown" finished-at="2026-05-26T00:02:47 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:47 IST" name="setUp" finished-at="2026-05-26T00:02:48 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddingMultipleProductsToCart()[pri:3, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:48 IST" name="verifyAddingMultipleProductsToCart" description="TC_CART_002 - Verify adding multiple products to cart" finished-at="2026-05-26T00:02:48 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.createLoggedInUser(RegressionTestBase.java:18)
+at org.aiautomationproject.qa.tests.CartRegressionTest.verifyAddingMultipleProductsToCart(CartRegressionTest.java:24)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingMultipleProductsToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:49 IST" name="tearDown" finished-at="2026-05-26T00:02:49 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:49 IST" name="setUp" finished-at="2026-05-26T00:02:50 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRemovingProductFromCart()[pri:4, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:50 IST" name="verifyRemovingProductFromCart" description="TC_CART_004 - Verify removing product from cart" finished-at="2026-05-26T00:02:50 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.addDefaultProductToCart(RegressionTestBase.java:40)
+at org.aiautomationproject.qa.tests.CartRegressionTest.verifyRemovingProductFromCart(CartRegressionTest.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemovingProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:50 IST" name="tearDown" finished-at="2026-05-26T00:02:50 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:50 IST" name="setUp" finished-at="2026-05-26T00:02:51 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDuplicateProductAdditionIncreasesQuantity()[pri:5, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:51 IST" name="verifyDuplicateProductAdditionIncreasesQuantity" description="TC_CART_003 - Verify duplicate product addition increases quantity" finished-at="2026-05-26T00:02:51 IST" duration-ms="0" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.RegressionTestBase.createLoggedInUser(RegressionTestBase.java:18)
+at org.aiautomationproject.qa.tests.CartRegressionTest.verifyDuplicateProductAdditionIncreasesQuantity(CartRegressionTest.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDuplicateProductAdditionIncreasesQuantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.CartRegressionTest@4efbca5a]" started-at="2026-05-26T00:02:51 IST" name="tearDown" finished-at="2026-05-26T00:02:51 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.aiautomationproject.qa.tests.CartRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.PurchaseProductTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:org.aiautomationproject.qa.tests.PurchaseProductTest@1a482e36]" started-at="2026-05-26T00:02:43 IST" name="setUp" finished-at="2026-05-26T00:02:44 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerCanPurchaseProductSuccessfully()[pri:1, instance:org.aiautomationproject.qa.tests.PurchaseProductTest@1a482e36]" started-at="2026-05-26T00:02:44 IST" name="customerCanPurchaseProductSuccessfully" description="TC_CHECKOUT_001, TC_CHECKOUT_004, TC_PAYMENT_001, TC_LOGOUT_001 - Purchase a Product Successfully" finished-at="2026-05-26T00:02:46 IST" duration-ms="1937" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Suite signup failed before login. TimeoutException: timeout: Timed out receiving message from renderer: 3.174
+  (Session info: chrome=148.0.7778.179)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c96c6af4fa766e179441e54f75574243, get {url=https://automationexercise.com/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\Aishw\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65246}, goog:processID: 26424, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65246/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c96c6af4fa766e179441e54f75574243
+at org.testng.Assert.fail(Assert.java:111)
+at org.aiautomationproject.qa.tests.RegressionTestBase.loginAsSuiteUser(RegressionTestBase.java:33)
+at org.aiautomationproject.qa.tests.PurchaseProductTest.customerCanPurchaseProductSuccessfully(PurchaseProductTest.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerCanPurchaseProductSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.aiautomationproject.qa.tests.PurchaseProductTest@1a482e36]" started-at="2026-05-26T00:02:47 IST" name="tearDown" finished-at="2026-05-26T00:02:47 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.aiautomationproject.qa.tests.PurchaseProductTest -->
+    </test> <!-- Parallel Excel Regression Test Cases -->
+  </suite> <!-- Automation Exercise Parallel Regression Suite -->
+</testng-results>

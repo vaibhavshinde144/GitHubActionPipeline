@@ -1,0 +1,178 @@
+<html>
+<head>
+<title>TestNG:  Priority Regression Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Priority Regression Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 27 17:54:05 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63989 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>priority </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.ai.tests.ProductCatalogRegressionTest.verifyPriorityProductCatalogFeatures()'><b>verifyPriorityProductCatalogFeatures</b><br>Test class: com.saucedemo.ai.tests.ProductCatalogRegressionTest<br>Parameters: {Test Case ID=TC_025, Scenario ID=SC_006, Scenario Description=Product Sorting Validation, Test Case Description=Sort products by Name A to Z, Type=Functional, Priority=Medium, Test Steps=1. Login
+2. Select Name A to Z, Test Data=Sort dropdown, Expected Result=Products should be sorted alphabetically A to Z., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.ProductCatalogRegressionTest@79e2c065</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CartRegressionTest.verifyPriorityCartFunctionality()'><b>verifyPriorityCartFunctionality</b><br>Test class: com.saucedemo.ai.tests.CartRegressionTest<br>Parameters: {Test Case ID=TC_010, Scenario ID=SC_003, Scenario Description=Cart Functionality, Test Case Description=Add one product to cart, Type=Positive, Priority=High, Test Steps=1. Login
+2. Click Add to cart on one product, Test Data=Sauce Labs Backpack, Expected Result=Cart badge should display count 1 and button should change to Remove., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CartRegressionTest@3a93b025</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CheckoutRegressionTest.verifyPriorityCheckoutAndOrderFlow()'><b>verifyPriorityCheckoutAndOrderFlow</b><br>Test class: com.saucedemo.ai.tests.CheckoutRegressionTest<br>Parameters: {Test Case ID=TC_022, Scenario ID=SC_005, Scenario Description=Order Completion, Test Case Description=Verify checkout overview details, Type=Functional, Priority=High, Test Steps=1. Add product
+2. Complete checkout info
+3. Verify overview, Test Data=Valid checkout, Expected Result=Item, price, payment info, shipping info, tax, and total should be visible., Identify=Functional}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.CheckoutRegressionTest@35cabb2a</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.NavigationSecurityRegressionTest.verifyPriorityNavigationSessionAndSecurity()'><b>verifyPriorityNavigationSessionAndSecurity</b><br>Test class: com.saucedemo.ai.tests.NavigationSecurityRegressionTest<br>Parameters: {Test Case ID=TC_046, Scenario ID=SC_011, Scenario Description=Security and Unauthorized Access, Test Case Description=Access cart page without login, Type=Security, Priority=High, Test Steps=1. Open cart page URL directly without login, Test Data=No session, Expected Result=Access should be blocked and user should be redirected to login., Identify=Security}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.NavigationSecurityRegressionTest@7e07db1f</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.NavigationSecurityRegressionTest.verifyPriorityNavigationSessionAndSecurity()'><b>verifyPriorityNavigationSessionAndSecurity</b><br>Test class: com.saucedemo.ai.tests.NavigationSecurityRegressionTest<br>Parameters: {Test Case ID=TC_040, Scenario ID=SC_009, Scenario Description=Navigation and Logout, Test Case Description=Logout from application, Type=Functional, Priority=High, Test Steps=1. Login
+2. Open menu
+3. Click Logout, Test Data=Logged-in user, Expected Result=User should return to login page., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.NavigationSecurityRegressionTest@7e07db1f</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CheckoutRegressionTest.verifyPriorityCheckoutAndOrderFlow()'><b>verifyPriorityCheckoutAndOrderFlow</b><br>Test class: com.saucedemo.ai.tests.CheckoutRegressionTest<br>Parameters: {Test Case ID=TC_020, Scenario ID=SC_004, Scenario Description=Checkout Information Validation, Test Case Description=Checkout with blank postal code, Type=Negative, Priority=High, Test Steps=1. Enter first name and last name
+2. Keep postal code blank
+3. Click Continue, Test Data=Blank postal code, Expected Result=Postal code required error should be displayed., Identify=UI Validation}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CheckoutRegressionTest@35cabb2a</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CheckoutRegressionTest.verifyPriorityCheckoutAndOrderFlow()'><b>verifyPriorityCheckoutAndOrderFlow</b><br>Test class: com.saucedemo.ai.tests.CheckoutRegressionTest<br>Parameters: {Test Case ID=TC_017, Scenario ID=SC_004, Scenario Description=Checkout Information Validation, Test Case Description=Checkout with valid customer details, Type=Positive, Priority=High, Test Steps=1. Enter first name
+2. Enter last name
+3. Enter postal code
+4. Click Continue, Test Data=Vaibhav / Shinde / 400001, Expected Result=Checkout overview page should be displayed., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CheckoutRegressionTest@35cabb2a</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.ProductCatalogRegressionTest.verifyPriorityProductCatalogFeatures()'><b>verifyPriorityProductCatalogFeatures</b><br>Test class: com.saucedemo.ai.tests.ProductCatalogRegressionTest<br>Parameters: {Test Case ID=TC_027, Scenario ID=SC_006, Scenario Description=Product Sorting Validation, Test Case Description=Sort products by Price low to high, Type=Functional, Priority=Medium, Test Steps=1. Login
+2. Select Price low to high, Test Data=Sort dropdown, Expected Result=Products should be sorted by ascending price., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.ProductCatalogRegressionTest@79e2c065</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.NavigationSecurityRegressionTest.verifyPriorityNavigationSessionAndSecurity()'><b>verifyPriorityNavigationSessionAndSecurity</b><br>Test class: com.saucedemo.ai.tests.NavigationSecurityRegressionTest<br>Parameters: {Test Case ID=TC_045, Scenario ID=SC_011, Scenario Description=Security and Unauthorized Access, Test Case Description=Access products page without login, Type=Security, Priority=High, Test Steps=1. Open products page URL directly without login, Test Data=No session, Expected Result=Access should be blocked and user should be redirected to login., Identify=Security}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.NavigationSecurityRegressionTest@7e07db1f</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.LoginRegressionTest.verifyPriorityLoginValidation()'><b>verifyPriorityLoginValidation</b><br>Test class: com.saucedemo.ai.tests.LoginRegressionTest<br>Parameters: {Test Case ID=TC_001, Scenario ID=SC_001, Scenario Description=User Login Validation, Test Case Description=Login with valid credentials, Type=Positive, Priority=High, Test Steps=1. Open https://www.saucedemo.com/
+2. Enter valid username
+3. Enter valid password
+4. Click Login, Test Data=standard_user / secret_sauce, Expected Result=User should successfully login and Products page should be displayed., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.LoginRegressionTest@5c5eefef</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CheckoutRegressionTest.verifyPriorityCheckoutAndOrderFlow()'><b>verifyPriorityCheckoutAndOrderFlow</b><br>Test class: com.saucedemo.ai.tests.CheckoutRegressionTest<br>Parameters: {Test Case ID=TC_023, Scenario ID=SC_005, Scenario Description=Order Completion, Test Case Description=Complete order successfully, Type=Positive, Priority=Critical, Test Steps=1. From overview page
+2. Click Finish, Test Data=Valid checkout, Expected Result=Order confirmation message should be displayed., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CheckoutRegressionTest@35cabb2a</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CartRegressionTest.verifyPriorityCartFunctionality()'><b>verifyPriorityCartFunctionality</b><br>Test class: com.saucedemo.ai.tests.CartRegressionTest<br>Parameters: {Test Case ID=TC_013, Scenario ID=SC_003, Scenario Description=Cart Functionality, Test Case Description=Open cart after adding product, Type=Functional, Priority=High, Test Steps=1. Add product
+2. Click cart icon, Test Data=Added product, Expected Result=Cart page should show selected product details., Identify=Functional}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CartRegressionTest@3a93b025</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CheckoutRegressionTest.verifyPriorityCheckoutAndOrderFlow()'><b>verifyPriorityCheckoutAndOrderFlow</b><br>Test class: com.saucedemo.ai.tests.CheckoutRegressionTest<br>Parameters: {Test Case ID=TC_018, Scenario ID=SC_004, Scenario Description=Checkout Information Validation, Test Case Description=Checkout with blank first name, Type=Negative, Priority=High, Test Steps=1. Keep first name blank
+2. Enter other details
+3. Click Continue, Test Data=Blank first name, Expected Result=First name required error should be displayed., Identify=UI Validation}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CheckoutRegressionTest@35cabb2a</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CartRegressionTest.verifyPriorityCartFunctionality()'><b>verifyPriorityCartFunctionality</b><br>Test class: com.saucedemo.ai.tests.CartRegressionTest<br>Parameters: {Test Case ID=TC_031, Scenario ID=SC_007, Scenario Description=Edge Case Validation, Test Case Description=Refresh browser after adding product, Type=Edge, Priority=Medium, Test Steps=1. Add product
+2. Refresh browser, Test Data=Added product, Expected Result=Cart state should remain consistent after refresh., Identify=Edge}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CartRegressionTest@3a93b025</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.CheckoutRegressionTest.verifyPriorityCheckoutAndOrderFlow()'><b>verifyPriorityCheckoutAndOrderFlow</b><br>Test class: com.saucedemo.ai.tests.CheckoutRegressionTest<br>Parameters: {Test Case ID=TC_019, Scenario ID=SC_004, Scenario Description=Checkout Information Validation, Test Case Description=Checkout with blank last name, Type=Negative, Priority=High, Test Steps=1. Enter first name
+2. Keep last name blank
+3. Enter postal code
+4. Click Continue, Test Data=Blank last name, Expected Result=Last name required error should be displayed., Identify=UI Validation}</td>
+<td></td>
+<td>1</td>
+<td>com.saucedemo.ai.tests.CheckoutRegressionTest@35cabb2a</td></tr>
+</table><p>
+</body>
+</html>

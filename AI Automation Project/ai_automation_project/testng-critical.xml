@@ -1,0 +1,20 @@
+<suite name="Automation Exercise Critical Regression Suite" parallel="false" thread-count="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="org.aiautomationproject.qa.listeners.TestListener"/>
+    </listeners>
+    <test name="Critical Business Impact Tests">
+        <groups>
+            <run>
+                <include name="critical"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="org.aiautomationproject.qa.tests.AuthenticationRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.CartRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.CheckoutRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.PaymentRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.SecurityRegressionTest"/>
+            <class name="org.aiautomationproject.qa.tests.PurchaseProductTest"/>
+        </classes>
+    </test>
+</suite>

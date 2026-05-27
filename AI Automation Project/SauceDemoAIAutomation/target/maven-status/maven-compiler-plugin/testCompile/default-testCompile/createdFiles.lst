@@ -1,0 +1,12 @@
+com\saucedemo\ai\tests\LoginRegressionTest.class
+com\saucedemo\ai\tests\CheckoutRegressionTest.class
+com\saucedemo\ai\tests\UserInterfaceRegressionTest.class
+com\saucedemo\ai\tests\SauceDemoTestBase.class
+com\saucedemo\ai\tests\TestInputDataUtil.class
+com\saucedemo\ai\tests\CartRegressionTest.class
+com\saucedemo\ai\tests\TestCaseDataUtil.class
+com\saucedemo\ai\tests\SauceDemoTestBase$Customer.class
+com\saucedemo\ai\tests\ProductCatalogRegressionTest.class
+com\saucedemo\ai\tests\NavigationSecurityRegressionTest.class
+com\saucedemo\ai\tests\TestInputDataUtil$CustomerData.class
+com\saucedemo\ai\tests\SauceDemoTestBase$SortExpectation.class

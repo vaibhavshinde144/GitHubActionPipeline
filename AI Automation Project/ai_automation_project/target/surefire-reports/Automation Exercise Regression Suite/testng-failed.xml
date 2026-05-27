@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Exercise Regression Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="org.aiautomationproject.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Excel Regression Test Cases(failed)" verbose="0">
+    <classes>
+      <class name="org.aiautomationproject.qa.tests.StockRegressionTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyZeroOrNegativeQuantityIsNotAccepted"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.StockRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.CheckoutRegressionTest">
+        <methods>
+          <include name="verifyCheckoutWithProductForLoggedInUser"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.CheckoutRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.PaymentRegressionTest">
+        <methods>
+          <include name="verifyPaymentWithInvalidCardNumber"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.PaymentRegressionTest -->
+    </classes>
+  </test> <!-- Excel Regression Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Exercise Regression Suite] -->

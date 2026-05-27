@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 27 17:04:51 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21373 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.saucedemo.ai.tests.LoginRegressionTest.verifyLoginValidation()'><b>verifyLoginValidation</b><br>Test class: com.saucedemo.ai.tests.LoginRegressionTest<br>Parameters: {Test Case ID=TC_005, Scenario ID=SC_001, Scenario Description=User Login Validation, Test Case Description=Login with locked user, Type=Negative, Priority=High, Test Steps=1. Enter locked user credentials
+2. Click Login, Test Data=locked_out_user / secret_sauce, Expected Result=Locked out user error should be displayed., Identify=Functional}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.LoginRegressionTest@7f552bd3</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.LoginRegressionTest.verifyLoginValidation()'><b>verifyLoginValidation</b><br>Test class: com.saucedemo.ai.tests.LoginRegressionTest<br>Parameters: {Test Case ID=TC_002, Scenario ID=SC_001, Scenario Description=User Login Validation, Test Case Description=Login with invalid password, Type=Negative, Priority=High, Test Steps=1. Open login page
+2. Enter valid username
+3. Enter invalid password
+4. Click Login, Test Data=standard_user / wrong123, Expected Result=Application should display login failure error message., Identify=Functional}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.LoginRegressionTest@7f552bd3</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.LoginRegressionTest.verifyPriorityLoginValidation()'><b>verifyPriorityLoginValidation</b><br>Test class: com.saucedemo.ai.tests.LoginRegressionTest<br>Parameters: {Test Case ID=TC_001, Scenario ID=SC_001, Scenario Description=User Login Validation, Test Case Description=Login with valid credentials, Type=Positive, Priority=High, Test Steps=1. Open https://www.saucedemo.com/
+2. Enter valid username
+3. Enter valid password
+4. Click Login, Test Data=standard_user / secret_sauce, Expected Result=User should successfully login and Products page should be displayed., Identify=Functional}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.LoginRegressionTest@7f552bd3</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.LoginRegressionTest.verifyLoginValidation()'><b>verifyLoginValidation</b><br>Test class: com.saucedemo.ai.tests.LoginRegressionTest<br>Parameters: {Test Case ID=TC_001, Scenario ID=SC_001, Scenario Description=User Login Validation, Test Case Description=Login with valid credentials, Type=Positive, Priority=High, Test Steps=1. Open https://www.saucedemo.com/
+2. Enter valid username
+3. Enter valid password
+4. Click Login, Test Data=standard_user / secret_sauce, Expected Result=User should successfully login and Products page should be displayed., Identify=Functional}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.LoginRegressionTest@7f552bd3</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.LoginRegressionTest.verifyLoginValidation()'><b>verifyLoginValidation</b><br>Test class: com.saucedemo.ai.tests.LoginRegressionTest<br>Parameters: {Test Case ID=TC_004, Scenario ID=SC_001, Scenario Description=User Login Validation, Test Case Description=Login with blank password, Type=Negative, Priority=High, Test Steps=1. Enter username
+2. Keep password blank
+3. Click Login, Test Data=standard_user / blank password, Expected Result=Password required validation message should be displayed., Identify=UI Validation}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.LoginRegressionTest@7f552bd3</td></tr>
+<tr>
+<td title='com.saucedemo.ai.tests.LoginRegressionTest.verifyLoginValidation()'><b>verifyLoginValidation</b><br>Test class: com.saucedemo.ai.tests.LoginRegressionTest<br>Parameters: {Test Case ID=TC_003, Scenario ID=SC_001, Scenario Description=User Login Validation, Test Case Description=Login with blank username and password, Type=Negative, Priority=High, Test Steps=1. Open login page
+2. Keep username blank
+3. Keep password blank
+4. Click Login, Test Data=Blank username and password, Expected Result=Username required validation message should be displayed., Identify=UI Validation}</td>
+<td></td>
+<td>0</td>
+<td>com.saucedemo.ai.tests.LoginRegressionTest@7f552bd3</td></tr>
+</table><p>
+</body>
+</html>

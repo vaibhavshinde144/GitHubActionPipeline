@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="3" parallel="classes" name="Failed suite [Automation Exercise Parallel Regression Suite]" verbose="0">
+  <listeners>
+    <listener class-name="org.aiautomationproject.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Parallel Excel Regression Test Cases(failed)" verbose="0">
+    <classes>
+      <class name="org.aiautomationproject.qa.tests.CheckoutRegressionTest">
+        <methods>
+          <include name="verifyCheckoutCommentAcceptsValidText"/>
+          <include name="createSuiteUserOnce"/>
+          <include name="verifyCheckoutWithProductForLoggedInUser"/>
+          <include name="verifyOrderSummaryDuringCheckout"/>
+          <include name="verifyRemovingProductBlocksOrderPlacement"/>
+          <include name="verifyDeliveryAddressDisplayedDuringCheckout"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyCheckoutWithEmptyCartIsNotAllowed"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.CheckoutRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.StockRegressionTest">
+        <methods>
+          <include name="createSuiteUserOnce"/>
+          <include name="verifyAbnormalHighQuantityHandling"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyZeroOrNegativeQuantityIsNotAccepted"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.StockRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.PurchaseProductTest">
+        <methods>
+          <include name="createSuiteUserOnce"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="customerCanPurchaseProductSuccessfully"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.PurchaseProductTest -->
+      <class name="org.aiautomationproject.qa.tests.AuthenticationRegressionTest">
+        <methods>
+          <include name="createSuiteUserOnce"/>
+          <include name="verifyLoginWithUnregisteredEmail"/>
+          <include name="verifyLoginWithBlankEmailAndValidPassword"/>
+          <include name="setUp"/>
+          <include name="verifyLogoutAfterOrderPlacement"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.AuthenticationRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.PaymentRegressionTest">
+        <methods>
+          <include name="verifySuccessfulPaymentUsingValidCardDetails"/>
+          <include name="createSuiteUserOnce"/>
+          <include name="verifyPaymentWithInvalidCardNumber"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyPaymentWithBlankMandatoryPaymentFields"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.PaymentRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.SecurityRegressionTest">
+        <methods>
+          <include name="createSuiteUserOnce"/>
+          <include name="verifyProtectedPageCannotBeAccessedAfterLogout"/>
+          <include name="verifyDirectCheckoutUrlAccessWithoutLoginIsRestricted"/>
+          <include name="verifyCardDetailsAreNotExposedAfterPayment"/>
+          <include name="setUp"/>
+          <include name="verifySqlInjectionAttemptOnLoginFields"/>
+          <include name="tearDown"/>
+          <include name="verifyXssPayloadInCheckoutCommentField"/>
+          <include name="verifyXssPayloadInProductSearchField"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.SecurityRegressionTest -->
+      <class name="org.aiautomationproject.qa.tests.CartRegressionTest">
+        <methods>
+          <include name="createSuiteUserOnce"/>
+          <include name="verifyAddingProductToCartFromListingPage"/>
+          <include name="verifyCartPersistenceAfterPageRefresh"/>
+          <include name="verifyRemovingProductFromCart"/>
+          <include name="verifyAddingMultipleProductsToCart"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyDuplicateProductAdditionIncreasesQuantity"/>
+        </methods>
+      </class> <!-- org.aiautomationproject.qa.tests.CartRegressionTest -->
+    </classes>
+  </test> <!-- Parallel Excel Regression Test Cases(failed) -->
+</suite> <!-- Failed suite [Automation Exercise Parallel Regression Suite] -->
